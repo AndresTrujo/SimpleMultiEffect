@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="qwu3lG" name="SimpleMultiEffect" projectType="guiapp" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" cppLanguageStandard="20">
   <MAINGROUP id="bFDcSH" name="SimpleMultiEffect">
     <GROUP id="{23238445-2A7C-2064-8FA0-7BCFA17C4843}" name="Source">
       <FILE id="SafzTN" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
