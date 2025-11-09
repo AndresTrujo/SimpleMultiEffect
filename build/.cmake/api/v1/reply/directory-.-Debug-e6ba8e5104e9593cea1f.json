@@ -1,0 +1,113 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 160,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 184,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 185,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/JUCE-8.0.10",
+			"paths" : 
+			[
+				"/home/andres/Documents/SimpleMultiEffect/build/JUCEConfigVersion.cmake",
+				"/home/andres/Documents/SimpleMultiEffect/build/JUCEConfig.cmake",
+				"extras/Build/CMake/JUCECheckAtomic.cmake",
+				"extras/Build/CMake/JUCEHelperTargets.cmake",
+				"extras/Build/CMake/JUCEModuleSupport.cmake",
+				"extras/Build/CMake/JUCEUtils.cmake",
+				"extras/Build/CMake/JuceLV2Defines.h.in",
+				"extras/Build/CMake/LaunchScreen.storyboard",
+				"extras/Build/CMake/PIPAudioProcessor.cpp.in",
+				"extras/Build/CMake/PIPAudioProcessorWithARA.cpp.in",
+				"extras/Build/CMake/PIPComponent.cpp.in",
+				"extras/Build/CMake/PIPConsole.cpp.in",
+				"extras/Build/CMake/RecentFilesMenuTemplate.nib",
+				"extras/Build/CMake/UnityPluginGUIScript.cs.in",
+				"extras/Build/CMake/checkBundleSigning.cmake",
+				"extras/Build/CMake/copyDir.cmake",
+				"extras/Build/CMake/juce_runtime_arch_detection.cpp",
+				"extras/Build/CMake/juce_LinuxSubprocessHelper.cpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin/JUCE-8.0.10",
+			"paths" : 
+			[
+				"juce_lv2_helper"
+			],
+			"targetId" : "juce_lv2_helper::@6890427a1f51a3e7e1df",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "juce_lv2_helper::@6890427a1f51a3e7e1df",
+				"index" : 0
+			},
+			"destination" : "bin/JUCE-8.0.10",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/JUCE-8.0.10",
+			"exportName" : "LV2_HELPER",
+			"exportTargets" : 
+			[
+				{
+					"id" : "juce_lv2_helper::@6890427a1f51a3e7e1df",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/f123bee5c58e6a2182eb3c55197a9ce5/LV2_HELPER.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

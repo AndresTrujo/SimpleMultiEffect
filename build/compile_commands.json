@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/andres/Documents/SimpleMultiEffect/build",
+  "command": "/usr/bin/g++ -std=c++17 -o CMakeFiles/juce_lv2_helper.dir/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.o -c /home/andres/Documents/SimpleMultiEffect/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp",
+  "file": "/home/andres/Documents/SimpleMultiEffect/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp",
+  "output": "CMakeFiles/juce_lv2_helper.dir/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.o"
+}
+]

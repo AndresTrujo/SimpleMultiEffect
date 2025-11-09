@@ -1,0 +1,109 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-e6ba8e5104e9593cea1f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "modules",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-modules-Debug-d54c322765e6b83ce192.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules"
+				},
+				{
+					"build" : "extras/Build",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extras.Build-Debug-007be31996662dc3838e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "extras/Build"
+				},
+				{
+					"build" : "extras/Build/juceaide",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extras.Build.juceaide-Debug-146c1f2929bed4e38989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "extras/Build/juceaide"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "JUCE",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "juce_lv2_helper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-juce_lv2_helper-Debug-cde0bbaf1e58167aa5ab.json",
+					"name" : "juce_lv2_helper",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/andres/Documents/SimpleMultiEffect/build",
+		"source" : "/home/andres/Documents/SimpleMultiEffect/JUCE"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
