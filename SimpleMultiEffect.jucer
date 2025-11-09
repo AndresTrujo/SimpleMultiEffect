@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="yxXsfV" name="SimpleMultiEffect" projectType="audioplug"
-              useAppConfig="0" addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1"
+              cppLanguageStandard="20">
   <MAINGROUP id="VOXBZP" name="SimpleMultiEffect">
     <GROUP id="{383DD29A-7A42-F209-CE5E-C90A6F6D1636}" name="Source">
       <FILE id="hhGovp" name="PluginProcessor.cpp" compile="1" resource="0"
@@ -23,6 +24,7 @@
     <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
@@ -48,6 +50,7 @@
         <MODULEPATH id="juce_graphics" path="JUCE/modules"/>
         <MODULEPATH id="juce_gui_basics" path="JUCE/modules"/>
         <MODULEPATH id="juce_gui_extra" path="JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="JUCE/modules"/>
       </MODULEPATHS>
     </LINUX_MAKE>
   </EXPORTFORMATS>
